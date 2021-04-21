@@ -1,128 +1,81 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Starbuzz Coffee</title>
-    <link rel="stylesheet" type="text/css" href="starbuzz.css">
-  </head> 
-
-  <body>
-
-    <div id="header">
-      <img id="headerLogo" src="images/headerlogo.gif" alt="Starbuzz Coffee logo image">
-      <img id="headerSlogan" src="images/headerSlogan.gif" alt="Providing all the caffeine you need to power your life.">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">
+    <title>Школа английского - Funny Bunny</title>
+</head>
+<body class="class1">
+    <div class="topbar">
+        <a href="#">Главная</a> 
+        <a href="#infoAbout">Обо мне</a> 
+        <a href="#allCourses">Курсы</a> 
+        <a href="#myContacts">Контакты</a>
+    </div>
+    
+    <div class="home">
+        <img src="./FunnyBunnyLogo.jpg" id="logo">
+        <div class="information">
+            Эта школа для детей 4-12 лет, в которой взрослые приводят детей для разных целей
+        </div>
     </div>
 
-    <div id="award">
-    	<img src="images/award.gif" alt="Награда обжарщику кофейных зерен года">
+    <div class="aboutMe" id="infoAbout">
+        <div class="title">Обо мне</div>
+        <div class="resume">
+            Я - учитель со стажем, 25 лет, работаю хорошо
+        </div>
     </div>
 
-    <div id="tableContainer">
-    	<div id="tableRow">
-
-    		<div id="drinks">
-				 <h1>НАПИТКИ</h1>
-				 <p>Домашняя смесь, $1.49</p>
-				 <p>Кофе мокко, $2.35</p>
-				 <p>Капучино, $1.89</p>
-				 <p>Чай, $1.85</p>
-				 <h1>ОСВЕЖАЮЩИЕ НАПИТКИ</h1>
-				 <p>
-				 Мы с гордостью подаем освежающие напитки,
-				 которые готовят наши друзья в гостевой Head First.
-				 </p>
-				 <p>Охлажденный зеленый чай, $2.99</p>
-				 <p>Охлажденный малиновый сироп, $2.99</p>
-				 <p>Чудо-напиток из голубики, $2.99</p>
-				 <p>Клюквенный антиоксидантный взрыв, $2.99</p>
-				 <p>Чай «Льдинка», $2.99</p>
-				 <p>«Подзарядка для мозга», $2.99</p>
-			</div>
-			
-		    <div id="main">
-		      <h1>QUALITY COFFEE, QUALITY CAFFEINE</h1>
-		      <p>
-		        At Starbuzz Coffee, we are dedicated to filling all your  caffeine needs through our 
-		        quality coffees and teas. Sure, we want you to have a great cup of coffee and a great 
-		        coffee experience as well, but we're the only company that actively monitors and 
-		        optimizes caffeine levels. So stop by and fill your cup, or order online with our new Bean 
-		        Machine online order form, and get that quality Starbuzz coffee that you know will meet 
-		        your caffeine standards.
-		      </p>
-		      <p>
-		        And, did we mention <em>caffeine</em>? We've just started funding the guys doing all 
-		        the wonderful research at the <a href="http://buzz.headfirstlabs.com"
-		        title="Read all about caffeine on the Buzz">Caffeine Buzz</a>.
-		        If you want the latest on coffee and other caffeine products, 
-		        stop by and pay them a visit.
-		      </p>
-		      <h1>OUR STORY</h1>
-		      <p>
-		        "A man, a plan, a coffee bean". Okay, that doesn't make a palindrome, but it resulted
-		        in a damn good cup of coffee.  Starbuzz's CEO is that man, and you already know his 
-		        plan: a Starbuzz on every corner.
-		      </p> 
-		      <p>In only a few years he's executed that plan and today 
-		        you can enjoy Starbuzz just about anywhere.  And, of course, the big news this year 
-		        is that Starbuzz teamed up with Head First readers to create Starbuzz's Web presence,  
-		        which is growing rapidly and helping to meet the caffeine needs of a whole new set of 
-		        customers.  
-		      </p>
-		      <h1>STARBUZZ COFFEE BEVERAGES</h1>
-		      <p>
-		        We've got a variety of caffeinated beverages to choose
-		        from at Starbuzz, including our 
-		        <a href="beverages.html#house" title="House Blend">House Blend</a>,
-		        <a href="beverages.html#mocha" title="Mocha Cafe Latte">Mocha Cafe Latte</a>, 
-		        <a href="beverages.html#cappuccino" title="Cappuccino">Cappuccino</a>,
-		        and a favorite of our customers, 
-		        <a href="beverages.html#chai" title="Chai Tea">Chai Tea</a>.
-		      </p>
-		      <p>
-		        We also offer a variety of coffee beans, whole or ground, for you to
-		        take home with you.  Order your coffee today using our online
-		        <a href="form.html" title="form.html">Bean Machine</a>, and take
-		        the Starbuzz Coffee experience home.
-		      </p>
-		    </div>
-
-		    <div id="sidebar">
-		      <p class="beanheading">
-		        <img src="images/bag.gif" alt="Bean Machine bag">
-		        <br>
-		        ORDER ONLINE
-		        with the 
-		        <a href="form.html">BEAN MACHINE</a>
-		        <br>
-		        <span class="slogan">
-		            FAST <br>
-		            FRESH <br>
-		            TO YOUR DOOR <br>
-		        </span>
-		      </p>
-		      <p>
-		        Why wait?  You can order all our fine coffees right from the Internet with our new, 
-		        automated Bean Machine.  How does it work?  Just click on the Bean Machine link, 
-		        enter your order, and behind the scenes, your coffee is roasted, ground 
-		        (if you want), packaged, and shipped to your door.
-		      </p>
-		    </div>
-		</div>
-	</div>
-
-    <div id="coupon">
-    	<a href="freecoffee.html" title="Щелкните здесь, чтобы получить бесплатный кофе">
-    		<img src="images/ticket.gif" alt="купон на один бесплатный напиток">
-    	</a>
+    <div class="courses" id="allCourses">
+        <div class="courseTitle">Курсы</div>
+        <div class="courseText">О программе курсов</div>
+        <div class="courseIcons">
+            <div class="skill">
+                <img class="psImg"  src="./kids.jpg" alt="Ps">
+                <p class="skillName">Курс "Kids"</p><br>
+                <p class="courseDesc">
+                    Формирование умения воспринимать английскую речь на слух, погружение в языковую среду, игры, стихи, 
+                    песни, аппликации и лепка. Интерактивные занятия.
+                </p>
+            </div>
+            <div class="skill">
+                <img class="aiImg"  src="./readers.jpg" alt="Ai">
+                <p class="skillName">Курс "Readers"</p>
+                <p class="courseDesc">
+                    Изучение алфавита, постановка произношения, обучение чтению и письму на английском языке. 
+                    В учебное время - 2 раза в неделю. Летний интенсив - 2 месяца, 3 раза в неделю.
+                </p>
+                
+            </div>
+            <div class="skill">
+                <img class="aeImg"  src="./children.jpg" alt="Ae">
+                <p class="skillName">Курс "Children"</p>
+                <p class="courseDesc">
+                    Приобретение базовых разговорных навыков, отработка навыков чтения, письма и грамматики, 
+                    ликвидация пробелов в знаниях школьной программы по учебникам "Радужный английский", "Английский в фокусе", 
+                    "Форвард".
+                </p>
+            </div>
+            
+        </div>
     </div>
-
-    <div id="footer">
-      &copy; 2012, Starbuzz Coffee
-      <br>
-      All trademarks and registered trademarks appearing on 
-      this site are the property of their respective owners.
+    
+    <div class="contacts" id="myContacts">
+        <div class="contactsTitle">Контакты</div>
+        <div class="socialMedia">
+            <img class="contactsImg" src="./whatsapp.png" alt="Whatsapp">
+            <img class="contactsImg" src="./instagram.png" alt="Instagram">
+            <img class="contactsImg" src="./viber.png" alt="Viber">
+            <img class="contactsImg" src="./email.png" alt="Email">
+        </div>
+        <p class="contactsConclusion">Whatsapp, Instagram, Viber, Email</p>
     </div>
-
-  </body>
+</body>
 </html>
-
+<svg>
+    <symbol id="star" height="26" width="26" viewBox="0 0 26 26"><path d="M10.1817 0.85958C10.4816 -0.0606967 11.7835 -0.0606959 12.0833 0.859581L13.8344 6.23398C13.9685 6.64561 14.3523 6.92418 14.7852 6.92418H20.446C21.4154 6.92418 21.8177 8.16521 21.0327 8.73398L16.4578 12.0486C16.1064 12.3033 15.9593 12.7555 16.0937 13.1682L17.8423 18.5349C18.1423 19.4557 17.089 20.2227 16.3048 19.6544L11.7192 16.3321C11.3692 16.0784 10.8958 16.0784 10.5458 16.3321L5.96025 19.6544C5.176 20.2227 4.12271 19.4557 4.42273 18.5348L6.1713 13.1682C6.30576 12.7555 6.15868 12.3033 5.80722 12.0486L1.23234 8.73398C0.447338 8.16521 0.849669 6.92418 1.81906 6.92418H7.47982C7.91274 6.92418 8.2965 6.64561 8.43062 6.23398L10.1817 0.85958Z"/></symbol>
+    </svg>    
