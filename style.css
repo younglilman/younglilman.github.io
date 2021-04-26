@@ -1,0 +1,248 @@
+.navigation {
+    display: flex;
+    padding: 32px 0;
+    margin: 0 5%;
+    justify-content: space-between;
+    border-bottom: 1px solid #828282;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: black;
+}
+
+.aboutSchool {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 54px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    border-bottom: 1px solid #828282;
+    text-align: center;
+    line-height: 30px;
+}
+
+.aboutSchool img {
+    width: 250px;
+    height: 150px;
+    padding-bottom: 32px;
+}
+
+.aboutTeacher {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 54px 0;
+    border-bottom: 1px solid #828282;
+    font-size: 20px;
+    height: 400px;
+}
+
+.aboutTeacher ul {
+    line-height: 70px;
+}
+
+.aboutTeacher h1 {
+    padding-bottom: 16px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.aboutTeacher h2 {
+    margin-top: 50px;
+}
+
+.aboutTeacher li::before {
+    content: "";
+    width: 25px;
+    height: 25px;
+    background-image: url(/fi-rr-graduation-cap.svg);
+    float: left;
+    /* position: relative; */
+    margin: 20px 16px 0 6px;
+}
+
+.courses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    padding: 54px 0;
+    border-bottom: 1px solid #828282;
+}
+
+.courses p {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.aboutCourses {
+    padding-top: 30px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.courseProgram{
+    text-align: center;
+    line-height: 20px;
+    padding: 20px;
+    border: solid 1px blueviolet;
+}
+
+.courseProgram img {
+    width: 70px;
+    height: 70px;
+    padding-bottom: 36px;
+}
+
+.courseProgram h2 {
+    width: 255px;
+    padding-top: 16px;
+    padding-bottom: 54px;
+}
+
+.courseProgram a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.foo {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 54px 0;
+}
+
+.foo h1 {
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 36px;
+}
+
+.contactsList {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+}
+
+.contact {
+    text-align: center;
+    line-height: 25px;
+}
+
+.contact img {
+    width: 50px;
+    height: 50px;
+}
+
+.courseProgram h1 {
+    height: 30px;
+}
+
+.choice p {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+
+.choice {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    padding: 54px 0;
+    border-bottom: 1px solid #828282;
+}
+
+.reasons {
+    margin-top: 30px;
+}
+
+.reason {
+    width: 1000px;
+    height: 50px;
+    padding: 0 15%;
+}
+
+.lessonsGoing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    padding: 40px 0 10px;
+    border-bottom: 1px solid #828282;
+}
+
+.lessonsGoing p {
+    font-weight: bold;
+    font-size: 24px;
+}
+.learning {
+    padding-top: 30px;
+    display: flex;
+    height: 300px;
+    padding-bottom: 70px;
+}
+
+.lessons {
+    text-align: center;
+    line-height: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border: 2px solid purple;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.lessons h2 {
+    padding: 0 5%;
+}
+
+.lessons h1 {
+    padding-bottom: 30px;
+}
+
+.detailedCourses {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    padding: 54px 100px;
+    border-bottom: 1px solid #828282;
+    height: 400px;
+}
+
+.detailedCourses h1{
+    font-size: 44px;
+}
+
+
+.detailedCourses h2{
+    padding-top: 12%;
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 5%;
+}
+.detailedCourses span {
+    border: 2px solid purple;
+    border-radius: 10px;
+    padding: 5px;
+}
+/* .detailedCourses h3 {
+    padding-top: 5%;
+    border: 2px solid purple;
+} */
+
+/* html {
+    background: url(/backGround.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-weight: 600;
+    color: rgb(41, 39, 39);
+} */
