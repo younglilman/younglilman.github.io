@@ -22,6 +22,7 @@
     font-size: 18px;
     border-bottom: 1px solid #828282;
     text-align: center;
+    height: 300px;
     line-height: 30px;
 }
 
@@ -35,11 +36,16 @@
     font-family: 'Open Sans', sans-serif;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     padding: 54px 0;
     border-bottom: 1px solid #828282;
     font-size: 20px;
     height: 400px;
+    background-image: url(/backGrnd1.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .aboutTeacher ul {
@@ -50,10 +56,13 @@
     padding-bottom: 16px;
     font-size: 36px;
     font-weight: bold;
+    text-align: center;
 }
 
 .aboutTeacher h2 {
     margin-top: 50px;
+    margin-left: 70px;
+    font-weight: 550;
 }
 
 .aboutTeacher li::before {
@@ -63,7 +72,7 @@
     background-image: url(/fi-rr-graduation-cap.svg);
     float: left;
     /* position: relative; */
-    margin: 20px 16px 0 6px;
+    margin: 20px 16px 0 0px;
 }
 
 .courses {
@@ -91,18 +100,21 @@
     text-align: center;
     line-height: 20px;
     padding: 20px;
-    border: solid 1px blueviolet;
+    border: solid 2px blueviolet;
 }
 
+.courseProgram h1 {
+    font-size: 20px;
+}
 .courseProgram img {
     width: 70px;
     height: 70px;
-    padding-bottom: 36px;
+    padding-bottom: 20px;
 }
 
 .courseProgram h2 {
     width: 255px;
-    padding-top: 16px;
+    padding-top: 32px;
     padding-bottom: 54px;
 }
 
@@ -157,16 +169,31 @@
     font-family: 'Open Sans', sans-serif;
     padding: 54px 0;
     border-bottom: 1px solid #828282;
+    height: 400px;
 }
 
 .reasons {
     margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .reason {
-    width: 1000px;
-    height: 50px;
-    padding: 0 15%;
+    height: 70px;
+    border: solid 2px blueviolet;
+    border-radius: 15px;
+    margin: 15px 100px;
+    padding: 10px;
+}
+
+.reason h1 {
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+.reason h2 {
+    font-size: 18px;
 }
 
 .lessonsGoing {
@@ -176,6 +203,11 @@
     font-family: 'Open Sans', sans-serif;
     padding: 40px 0 10px;
     border-bottom: 1px solid #828282;
+    background-image: url(/backGrnd2.jpg);
+    background-repeat: no-repeat;
+    color:white;
+    font-weight: bold;
+    font-size: larger;
 }
 
 .lessonsGoing p {
@@ -205,6 +237,8 @@
 
 .lessons h1 {
     padding-bottom: 30px;
+    padding-top: 12px; 
+    font-size: 130%;
 }
 
 .detailedCourses {
@@ -231,6 +265,11 @@
     border: 2px solid purple;
     border-radius: 10px;
     padding: 5px;
+}
+
+#detailedReaders {
+    background-image: url(/backGrnd3.jpg);
+    background-size: contain;
 }
 /* .detailedCourses h3 {
     padding-top: 5%;
