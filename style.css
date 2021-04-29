@@ -81,7 +81,7 @@
     align-items: center;
     font-family: 'Open Sans', sans-serif;
     padding: 54px 0;
-    border-bottom: 1px solid #828282;
+    /* border-bottom: 1px solid #828282; */
 }
 
 .courses p {
@@ -168,7 +168,7 @@
     flex-direction: column;
     font-family: 'Open Sans', sans-serif;
     padding: 54px 0;
-    border-bottom: 1px solid #828282;
+    /* border-bottom: 1px solid #828282; */
     height: 400px;
 }
 
@@ -202,15 +202,17 @@
     align-items: center;
     font-family: 'Open Sans', sans-serif;
     padding: 40px 0 10px;
-    border-bottom: 1px solid #828282;
-    background-image: url(/backGrnd2.jpg);
+    /* border-bottom: 1px solid #828282; */
+    background-image: url(/backGrnd5.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-position-y: center;
     color:white;
     font-weight: bold;
     font-size: larger;
+    height: 500px;
 }
 
 .lessonsGoing p {
@@ -220,7 +222,7 @@
 .learning {
     padding-top: 30px;
     display: flex;
-    height: 300px;
+    
     padding-bottom: 70px;
 }
 
@@ -249,7 +251,7 @@
     flex-direction: column;
     font-family: 'Open Sans', sans-serif;
     padding: 54px 100px;
-    border-bottom: 1px solid #828282;
+    /* border-bottom: 1px solid #828282; */
     height: 400px;
 }
 
@@ -259,7 +261,7 @@
 
 
 .detailedCourses h2{
-    padding-top: 12%;
+    padding-top: 10%;
     font-size: 20px;
     line-height: 30px;
     padding-bottom: 5%;
@@ -269,7 +271,47 @@
     border-radius: 10px;
     padding: 5px;
 }
+#detailedKids {
+    background-image: url(/backGrnd1.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* background-position-y: center; */
+}
 
+#detailedReaders {
+    background-image: url(/background.jpeg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: rgb(4, 1, 199);
+    font-weight: 800;
+    /* background-position-y: center; */
+}
+
+#detailedSmartKids {
+    background-image: url(/backGrnd7.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: rgb(145, 88, 3);
+    font-weight: 800;
+    background-position-y:initial;
+    background-position: center;
+}
+
+#detailedIndividual {
+    background-image: url(/backGrnd6.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* color: rgb(145, 88, 3);
+    font-weight: 800; */
+}
 /* .detailedCourses h3 {
     padding-top: 5%;
     border: 2px solid purple;
