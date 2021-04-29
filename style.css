@@ -3,7 +3,6 @@
     padding: 32px 0;
     margin: 0 5%;
     justify-content: space-between;
-    border-bottom: 1px solid #828282;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
 }
@@ -13,6 +12,19 @@
     color: black;
 }
 
+.navigation img {
+    width: 180px;
+    height: 100px;
+    padding-bottom: 32px;
+}
+
+.aboutSchool p {
+    padding-top: 5%;
+    font-size: larger;
+    font-weight: 700;
+    line-height: 50px;
+}
+
 .aboutSchool {
     display: flex;
     flex-direction: column;
@@ -20,16 +32,16 @@
     padding: 54px 0;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
-    border-bottom: 1px solid #828282;
+    /* border-bottom: 1px solid #828282; */
     text-align: center;
     height: 300px;
     line-height: 30px;
-}
-
-.aboutSchool img {
-    width: 250px;
-    height: 150px;
-    padding-bottom: 32px;
+    background-image: url(/backGrnd7.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-y: -180px;
 }
 
 .aboutTeacher {
@@ -129,6 +141,11 @@
     flex-direction: column;
     align-items: center;
     padding: 54px 0;
+    /* background-image: url(/backGrnd12.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain; */
 }
 
 .foo h1 {
@@ -252,7 +269,7 @@
     font-family: 'Open Sans', sans-serif;
     padding: 54px 100px;
     /* border-bottom: 1px solid #828282; */
-    height: 400px;
+    height: 500px;
 }
 
 .detailedCourses h1{
@@ -261,7 +278,7 @@
 
 
 .detailedCourses h2{
-    padding-top: 10%;
+    padding-top: 5%;
     font-size: 20px;
     line-height: 30px;
     padding-bottom: 5%;
@@ -281,41 +298,34 @@
 }
 
 #detailedReaders {
-    background-image: url(/background.jpeg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    color: rgb(4, 1, 199);
+    background-image: url(/backGrnd8.jpg);
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    color: rgb(255, 255, 255);
     font-weight: 800;
     /* background-position-y: center; */
 }
 
 #detailedSmartKids {
-    background-image: url(/backGrnd7.jpg);
+    background-image: url(/backGrnd11.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    color: rgb(145, 88, 3);
-    font-weight: 800;
-    background-position-y:initial;
-    background-position: center;
 }
 
 #detailedIndividual {
-    background-image: url(/backGrnd6.jpg);
+    background-image: url(/backGrnd10.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    /* color: rgb(145, 88, 3);
-    font-weight: 800; */
+    background-position-y: 0px;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
 }
-/* .detailedCourses h3 {
-    padding-top: 5%;
-    border: 2px solid purple;
-} */
 
 /* html {
     background: url(/backGround.jpg) no-repeat center center fixed;
