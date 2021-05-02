@@ -39,11 +39,11 @@
     padding: 54px 0;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
-    /* border-bottom: 1px solid #828282; */
+    border-bottom: 2px solid #828282;
     text-align: center;
     height: 300px;
     line-height: 30px;
-    background-image: url(/backGrnd7.jpg);
+    background-image: url(/aboutSchoolBG.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -60,7 +60,7 @@
     border-bottom: 1px solid #828282;
     font-size: 20px;
     height: 400px;
-    background-image: url(/backGrnd1.jpg);
+    background-image: url(/aboutTeacherBG.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -101,7 +101,13 @@
     align-items: center;
     font-family: 'Open Sans', sans-serif;
     padding: 54px 0;
-    /* border-bottom: 1px solid #828282; */
+    border-bottom: 2px solid #828282;
+    background-image: url(/coursesBG.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-y: -250px;
 }
 
 .courseEnter {
@@ -110,7 +116,8 @@
 .courses p {
     font-weight: bolder;
     font-size: 30px;
-    text-shadow: 2px 2px 2px white;
+    color: white;
+    text-shadow: 2px 2px 2px black;
 }
 
 .aboutCourses {
@@ -156,6 +163,7 @@
     font-weight: bold;
     font-size: 24px;
     text-align: center;
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
 }
 
 .choice {
@@ -163,9 +171,9 @@
     flex-direction: column;
     font-family: 'Open Sans', sans-serif;
     padding: 54px 0;
-    /* border-bottom: 1px solid #828282; */
+    border-bottom: 2px solid #828282;
     height: 400px;
-    background-image: url(/backGrnd3.jpg);
+    background-image: url(/choiceBG.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -208,8 +216,8 @@
     align-items: center;
     font-family: 'Open Sans', sans-serif;
     padding: 40px 0 10px;
-    /* border-bottom: 1px solid #828282; */
-    background-image: url(/backGrnd5.jpg);
+    border-bottom: 2px solid #828282;
+    background-image: url(/lessonsGoingBG.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -219,6 +227,7 @@
     font-weight: bold;
     font-size: larger;
     height: 500px;
+    text-shadow: 2px 2px 2px black;
 }
 
 .lessonsGoing p {
@@ -243,7 +252,8 @@
 }
 
 .lessons h2 {
-    padding: 0 5%;
+    padding: 5%;
+    font-size: 16px;
 }
 
 .lessons h1 {
@@ -257,7 +267,7 @@
     flex-direction: column;
     font-family: 'Open Sans', sans-serif;
     padding: 54px 100px;
-    /* border-bottom: 1px solid #828282; */
+    border-bottom: 2px solid #828282;
     height: 500px;
     font-weight: bold;
     font-size: larger;
@@ -265,6 +275,7 @@
 
 .detailedCourses h1{
     font-size: 44px;
+    text-shadow: 1px 1px 1px white;
 }
 
 
@@ -280,7 +291,7 @@
     padding: 5px;
 }
 #detailedKids {
-    background-image: url(/backGrnd1.png);
+    background-image: url(/detailedKidsBG.png);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -291,7 +302,7 @@
 
 #detailedReaders {
     /* background-image: url(/backGrnd8.jpg); */
-    background-image: url(/backGrnd11.jpg);
+    background-image: url(/detailedReadersBG.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -301,7 +312,7 @@
 
 #detailedSmartKids {
     /* background-image: url(/backGrnd11.jpg); */
-    background-image: url(/backGrnd10.jpg);
+    background-image: url(/detailedSmartKidsBG.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -310,7 +321,7 @@
 
 #detailedIndividual {
     /* background-image: url(/backGrnd10.jpg); */
-    background-image: url(/backGrnd6.jpg);
+    background-image: url(/detailedIndividualBG.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -327,15 +338,12 @@
     align-items: center;
     padding: 30px 0;
     height: 150px;
-    /* -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position-y: 430px; */
+    color: white;
 }
 
 .foo h1 {
-    font-weight: bold;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px black;
     font-size: 24px;
     padding-bottom: 26px;
 }
